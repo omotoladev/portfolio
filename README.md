@@ -16,7 +16,7 @@
 **Title:** Employee Data Interrogation and Manipulations 
 
 **SQL Code:**
-[Employee Data Manipulation]([Employee.sql](https://github.com/Tola-Analyst-hub/github.io/blob/main/Employee.sql)
+[Employee Data Manipulation](https://github.com/Tola-Analyst-hub/github.io/blob/main/Employee.sql)
 
 **SQL Skills Used:** 
 Data Retrieval (SELECT): Queried and extracted specific information from the database.
