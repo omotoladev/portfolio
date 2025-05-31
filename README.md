@@ -10,13 +10,14 @@
 
 **Dashboard Overview:** 
 ![TURNOVER](Turnover.PNG)
+[Turnover SQL Code](https://github.com/Tola-Analyst-hub/github.io/blob/main/Turnover.sql)
 
 # Project 2
 
 **Title:** Employee Data Interrogation and Manipulations 
 
 **SQL Code:**
-[Employee Data Manipulation](https://github.com/Tola-Analyst-hub/github.io/blob/main/Employee.sql)
+[Employee SQL Code](https://github.com/Tola-Analyst-hub/github.io/blob/main/Employee.sql)
 
 **SQL Skills Used:** 
 Data Retrieval (SELECT): Queried and extracted specific information from the database.
