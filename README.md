@@ -10,6 +10,8 @@
 
 **Dashboard Overview:** 
 ![TURNOVER](Turnover.PNG)
+
+**SQL Code:**
 [Turnover SQL Code](https://github.com/Tola-Analyst-hub/github.io/blob/main/Turnover.sql)
 
 # Project 2
