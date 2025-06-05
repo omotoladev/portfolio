@@ -4,9 +4,44 @@
 
 **Tools Used:** SQL, POWERBI (Slicers, Pivot Chart, DAX, Bar Chart, Visual Header Tooltips, Measures)
 
-**Project Description:** Had details about what the project is about, why you carried out this project, and co
+**Project Description:**
+This project involves a comprehensive analysis and visualization of UK business turnover data across different company types, statuses, and regions using a tax-related dataset. The purpose was to investigate how the COVID-19 pandemic and the subsequent recovery phase affected business turnover across various sectors and geographic locations.
+I developed SQL queries to clean, transform, and analyze the dataset and used Power BI to visualize key performance indicators (KPIs). The insights provided stakeholders with a clear view of business performance trends during and after the COVID period.
 
-**Key findings:** Key insights you discovered in this project
+**Business Objective**
+To evaluate the economic impact of COVID-19 and post-pandemic recovery on UK business turnover.
+To identify which sectors and regions drove growth or experienced decline during 2020–2024.
+To aid government departments or financial institutions in identifying vulnerable sectors and potential areas for support or investment.
+
+**Problems Addressed:**
+Understanding how different company types (e.g., Retail, Farming, Manufacturing) performed financially from 2020 to 2024.
+Measuring turnover changes year-on-year by sector and company status (Active, Closed, In Liquidation).
+Identifying regional disparities in business performance using total turnover as a benchmark.
+Assessing business incorporation behavior through analysis of incorporation months.
+
+**Key findings:** 
+
+Using SQL and Power BI, the following insights and KPIs were delivered:
+
+Turnover Change Between 2020–2024 by Company Type: Showed growth trends by sector.
+
+Top 15 Regional Performance by Total Turnover: Identified high-performing regions.
+
+Bottom 15 Regional Performance by Total Turnover: Highlighted underperforming regions.
+
+Sectors Showing Greatest Increase and Decrease Over the Years: Offers a snapshot of sectoral impact.
+
+Total Turnover by Company Status: Compared turnover performance between active, closed, and liquidated businesses.
+
+Turnover by Month on Month Performance: Provided time series trends in business turnover.
+
+SQL-Based Questions Addressed:
+
+Which sectors show the greatest increase and decrease in turnover over the years available?
+
+What is the total turnover for "Farming" broken down by year?
+
+What is the LEAST common month to incorporate a business? Is this true for all Company Types?
 
 **Dashboard Overview:** 
 ![TURNOVER](Turnover.PNG)
