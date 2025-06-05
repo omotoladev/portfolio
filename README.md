@@ -20,19 +20,19 @@ Identifying regional disparities in business performance using total turnover as
 Assessing business incorporation behavior through analysis of incorporation months.
 
 **Key findings:** 
-Using SQL and Power BI, the following insights and KPIs were delivered:
 
-Turnover Change Between 2020–2024 by Company Type: Showed growth trends by sector.
-Top 15 Regional Performance by Total Turnover: Identified high-performing regions.
-Bottom 15 Regional Performance by Total Turnover: Highlighted underperforming regions.
-Sectors Showing Greatest Increase and Decrease Over the Years: Offers a snapshot of sectoral impact.
-Total Turnover by Company Status: Compared turnover performance between active, closed, and liquidated businesses.
-Turnover by Month-on-Month Performance: Provided time series trends in business turnover.
+Using SQL and Power BI, the following insights and KPIs were delivered:
+1. Turnover Change Between 2020–2024 by Company Type: Showed growth trends by sector.
+2. Top 15 Regional Performance by Total Turnover: Identified high-performing regions.
+3. Bottom 15 Regional Performance by Total Turnover: Highlighted underperforming regions.
+4. Sectors Showing Greatest Increase and Decrease Over the Years: Offers a snapshot of sectoral impact.
+5. Total Turnover by Company Status: Compared turnover performance between active, closed, and liquidated businesses.
+6. Turnover by Month-on-Month Performance: Provided time series trends in business turnover.
 
 SQL-Based Questions Addressed:
-Which sectors show the greatest increase and decrease in turnover over the years available?
-What is the total turnover for “Farming” broken down by year?
-What is the LEAST common month to incorporate a business? Is this true for all Company Types?
+1. Which sectors show the greatest increase and decrease in turnover over the years available?
+2. What is the total turnover for “Farming” broken down by year?
+3. What is the LEAST common month to incorporate a business? Is this true for all Company Types?
 
 **Dashboard Overview:** 
 ![TURNOVER](Turnover.PNG)
