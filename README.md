@@ -36,6 +36,7 @@ SQL-Based Questions Addressed:
 
 **Dashboard Overview:** 
 ![TURNOVER](Turnover1.PNG)
+![TURNOVER](Turnover2.PNG)
 
 
 **SQL Code:**
