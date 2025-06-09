@@ -77,7 +77,7 @@ JOIN
 GROUP BY 
     e.Department 
 
---Question 6: How many years has an employee been with the company since their hire date
+--Question 6: How many years have an employee been with the company since their hire date
 SELECT distinct([EmployeeID]), [EmployeeName], DATEDIFF(year, [HireDate], Getdate()) as year_of_employment
 From [dbo].[Employee]
 
