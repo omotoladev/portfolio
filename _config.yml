@@ -1,13 +1,6 @@
 title: Omotola Musiliu 
 logo: Headshot.jpg
-description: "I am a professional Data Analyst with a solid background in transforming complex data into meaningful insights that support business strategy and performance improvement. I specialize in Excel automation, SQL querying, ETL/data warehouse processes, and Power BI dashboard development"
-
-
-
-
-
-
-
-
-
-
+description: "I am a professional Data Analyst with a solid background in transforming complex data into meaningful insights that support business strategy and performance improvement. I specialize in Excel automation, SQL querying, ETL/data warehouse processes, and Power BI dashboard development."
+#show downloads: true
+#data_analytics:
+theme: jekyll-theme-minimal
