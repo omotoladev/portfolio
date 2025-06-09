@@ -56,6 +56,6 @@ Data Filtering (WHERE, BETWEEN, IN, AND): Applied filters to select relevant dat
 Data Source Specification (FROM): Specified the tables used as data sources for retrieval
 
 **Project Description:**
-
+This project involved performing structured SQL queries and analytics on an employee dataset to uncover critical workforce patterns such as employee-manager salary relationships, department-level compensation rankings, and headcount distribution. The dataset consisted of employees’ personal and professional data, including names, departments, salaries, job roles, and reporting lines. Using SQL, advanced insights were extracted to support HR decisions, compensation planning, and leadership visibility
 
 **Technology used:** SQL server
