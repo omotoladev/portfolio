@@ -49,7 +49,7 @@ WITH dep_Sal AS (
     ON 
         e.departmentid = d.id
 )
--- Selecting the 3 highest-salary in each department
+-- Selecting the 3 highest-salary employees in each department
 SELECT 
     department, 
     employee, 
@@ -65,3 +65,28 @@ WHERE
 SELECT name as Department, COUNT(*) AS Total_Employees
 FROM Employees
 GROUP BY Department_id;
+
+-------Find the salary gap between the highest and lowest paid employee in each department
+SELECT 
+    e.Department,  MAX(e.salary) as max_sal, MIN(e.salary) as min_sal,
+    MAX(e.salary) - MIN(e.salary) AS Salary_Gap
+FROM 
+   [dbo].[Employee]e
+JOIN 
+   [dbo].[Employee]d ON e.[EmployeeID] = d.departmentid
+GROUP BY 
+    e.Department 
+
+----How many years has an employee been with the company since their hire date
+SELECT distinct([EmployeeID]), [EmployeeName], DATEDIFF(year, [HireDate], Getdate()) as year_of_employment
+From [dbo].[Employee]
+
+---count the number of employees who have spent between 5 to 10 years
+WITH CTE AS 
+(
+SELECT distinct([EmployeeID]), [EmployeeName], DATEDIFF(year, [HireDate], Getdate()) as year_of_employment
+From [dbo].[Employee]
+)
+SELECT 
+     Count(case when year_of_employment between 5 and 10 then [EmployeeID]  else null end)as emp_year_count 
+from cte
