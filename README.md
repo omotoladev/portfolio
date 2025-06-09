@@ -35,7 +35,8 @@ SQL-Based Questions Addressed:
 3. What is the LEAST common month to incorporate a business? Is this true for all Company Types?
 
 **Dashboard Overview:** 
-![TURNOVER](Turnover.PNG)
+![TURNOVER](Turnover1.PNG)
+
 
 **SQL Code:**
 [Turnover SQL Code](https://github.com/Tola-Analyst-hub/github.io/blob/main/Turnover.sql)
