@@ -74,11 +74,6 @@ Using a self-join on the employee table, we identified discrepancies in the mana
 Used RANK() and DENSE_RANK() window functions to extract the highest and top 3 earners in every department, enabling better compensation visibility.
 
 3. Headcount by department
-Applied GROUP BY and COUNT() to generate workforce distribution reports, aiding capacity planning.
-
-Potential HR KPIs Enabled:
-Compensation fairness analysis
-Salary band audits by department
-Managerial vs subordinate pay structure checks
+Applied GROUP BY and COUNT() to generate workforce distribution reports, aiding capacity planning, etc.
 
 **Technology used:** SQL server
