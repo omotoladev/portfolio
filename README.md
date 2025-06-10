@@ -58,4 +58,27 @@ Data Source Specification (FROM): Specified the tables used as data sources for 
 **Project Description:**
 This project involved performing structured SQL queries and analytics on an employee dataset to uncover critical workforce patterns such as employee-manager salary relationships, department-level compensation rankings, and headcount distribution. The dataset consisted of employees’ personal and professional data, including names, departments, salaries, job roles, and reporting lines. Using SQL, advanced insights were extracted to support HR decisions, compensation planning, and leadership visibility
 
+**Business Objective**
+To support the HR and executive leadership team with data-driven insights by:
+Identifying compensation discrepancies (e.g., employees earning more than their managers)
+Highlighting top earners across departments
+Enabling departmental headcount planning
+Providing a reusable SQL logic base for scalable employee data analysis
+
+**Key Outcome**
+Using SQL (including self-joins, common table expressions (CTEs), and aggregate functions), the following business questions were answered among others:
+1. Employees earning more than their managers
+Using a self-join on the employee table, we identified discrepancies in the managerial pay hierarchy.
+
+2. Top earners in each department
+Used RANK() and DENSE_RANK() window functions to extract the highest and top 3 earners in every department, enabling better compensation visibility.
+
+3. Headcount by department
+Applied GROUP BY and COUNT() to generate workforce distribution reports, aiding capacity planning.
+
+Potential HR KPIs Enabled:
+Compensation fairness analysis
+Salary band audits by department
+Managerial vs subordinate pay structure checks
+
 **Technology used:** SQL server
