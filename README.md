@@ -1,6 +1,6 @@
 # Project 1
 
-**Title:** [TURNOVER INTERACTIVE DASHBOARD](https://github.com/Tola-Analyst-hub/github.io/blob/main/Shital%20Corporations%20Report.pbix)
+**Title:** [TURNOVER INTERACTIVE REPORT](https://github.com/Tola-Analyst-hub/github.io/blob/main/Shital%20Corporations%20Report.pbix)
 
 **Tools Used:** SQL, POWERBI (Slicers, Pivot Chart, DAX, Bar Chart, Visual Header Tooltips, Measures)
 
