@@ -1,4 +1,4 @@
----Which sectors show the greatest increase and decrease in turnover over the years available?
+--1. Which sectors show the greatest increase and decrease in turnover over the years available?
   SELECT 
   [Company Type], 
   SUM([2020 Turnover]) AS [2020 Turnover],
@@ -11,7 +11,7 @@ FROM [dbo].[Turnover_Data]
 GROUP BY[Company Type]
 ORDER BY turnover_change DESC;
 
---What is the LEAST common month to incorporate a business? Is this true for all Company Types?  
+--2. What is the LEAST common month to incorporate a business? Is this true for all Company Types?  
 SELECT 
   [Company Type],
   MONTH([IncorporationDate]) AS IncorporationMonth,
@@ -21,7 +21,7 @@ FROM [dbo].[Turnover_Data]
 GROUP BY [Company Type], MONTH([IncorporationDate]), DATENAME(month, [IncorporationDate])
 ORDER BY [Company Type], IncorporationCount ASC;
 
---Which sectors are driving growth in high performing regions
+--3. Which sectors are driving growth in high-performing regions
 With high_performing_regions as
  (
  SELECT [Postcode], 
@@ -40,7 +40,7 @@ With high_performing_regions as
  where Postcode not in ('All')
  order by [Growth] desc, percentage_growth desc
 
----- What is the total turnover for ""Farming"" broken down by years? 
+--4. What is the total turnover for "Farming" broken down by years? 
 select
   [Company Type], 
   SUM([2020 Turnover]) AS [2020 Turnover],
